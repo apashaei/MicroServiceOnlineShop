@@ -1,0 +1,52 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Order", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44361 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Order",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForWebAuthenticationScheme",
+        
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Order/OrderId?OrderId={OrderId}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44361 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Order/OrderId?OrderId={OrderId}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForWebAuthenticationScheme",
+       
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/OrderPay?orderId={OrderId}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44361 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/OrderPay?orderId={OrderId}",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForWebAuthenticationScheme",
+       
+      }
+    }
+  ]
+}

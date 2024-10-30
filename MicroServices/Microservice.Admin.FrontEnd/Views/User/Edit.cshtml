@@ -1,0 +1,102 @@
+﻿@using Microservice.Admin.FrontEnd.Models.ViewServices.User;
+@using Microservice.Admin.FrontEnd.Models.ViewModels;
+@model EditUserViewModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="statbox widget box box-shadow">
+    <div class="widget-header">
+        <div class="row">
+            <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                <h4>ویرایش کاربر </h4>
+            </div>
+        </div>
+    </div>
+
+    @*    <div class="widget-content widget-content-area">
+    @foreach (var item in Model.Messages)
+    {
+    <div class="alert alert-info">
+    <p>@item</p>
+    </div>
+    }
+    </div> *@
+    <div class="widget-content widget-content-area">
+        <form asp-action="edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-4">
+                <label for="roleDropdown">ایمیل</label>
+                <input type="text" class="form-control" id="rEmail" asp-for="User.Email">
+                <span asp-validation-for="User.Email" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="User.Id" />
+
+            <div class="form-group mb-4">
+                <label for="roleDropdown">نام و نام خانوادگی</label>
+                <input type="text" class="form-control" id="rEmail" asp-for="User.FullName">
+                <span asp-validation-for="User.FullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="roleDropdown">شماره موبایل</label>
+                <input type="text" class="form-control" id="rEmail" asp-for="User.PhoneNumber">
+                <span asp-validation-for="User.PhoneNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="roleDropdown">نام کاربری</label>
+                <input type="text" class="form-control" id="rEmail" asp-for="User.UserName">
+                <span asp-validation-for="User.UserName" class="text-danger"></span>
+            </div>
+
+            <div>
+                class="form-group mb-4">
+                <label for="roleDropdown">نقش ها</label>
+                <select id="roleDropdown" asp-for="RoleId" class="form-control">
+                    @foreach (var role in Model.Roles)
+                    {
+                        <option value="@role.Id">@role.Name</option>
+                    }
+                </select>
+            </div>
+
+
+            <input type="submit" value="ثبت" class="btn btn-primary" />
+            <a asp-action="index" class="btn btn-info">برگشت به لیست</a>
+        </form>
+
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <link href="~/sweetalert2/sweetalert2.min.css" rel="stylesheet" />
+    <script src="~/sweetalert2/sweetalert2.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var message = '@TempData["Message"]';
+            var messageType = '@TempData["MessageType"]';
+
+            if (message) {
+                Swal.fire({
+                    title: messageType === 'success' ? 'موفقیت!' : 'خطا!',
+                    text: message,
+                    icon: messageType,
+                    confirmButtonText: 'باشه'
+                }).then((result) => {
+                    // If the message type is success, redirect to the index page
+                    if (result.isConfirmed && messageType === 'success') {
+                        window.location = '/Index'; // Replace with your Index page path if necessary
+                    }
+                    // If the message type is error, stay on the same page
+                });
+            }
+        });
+    </script>
+}
+

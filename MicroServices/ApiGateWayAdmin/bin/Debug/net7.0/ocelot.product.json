@@ -1,0 +1,81 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/product", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44345 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/product",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Product/{Id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product/{Id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Product/{Id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product/{Id}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Product/GetBrands",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product/GetBrands",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Category/GeDrpCategories",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Category/GeDrpCategories",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    }
+
+  ]
+}

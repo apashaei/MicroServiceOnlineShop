@@ -1,0 +1,90 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Basket?UserId={UserId}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44315 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket?UserId={UserId}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "Key": "user-basket"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket/GetOrCreate?UserId={UserId}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44315 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket/GetOrCreate?UserId={UserId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44315 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket?ItemId={ItemId}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44315 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket?ItemId={ItemId}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket?quantity={quantity}&itemId={itemId}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44315 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket?quantity={quantity}&itemId={itemId}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket/{BasketId}/{DiscountId}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44315 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket/{BasketId}/{DiscountId}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Basket/CheckoutBasket", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44315 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Basket/CheckoutBasket",
+      "UpstreamHttpMethod": [ "POST" ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Pay", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44396 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Pay",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForWebAuthenticationScheme"
+
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Pay/Verify?PaymentId={PaymentId}&CallBackUrlFront={CallBackUrlFront}&authority={authority}&Status={Status}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44396 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Pay/Verify?PaymentId={PaymentId}&CallBackUrlFront={CallBackUrlFront}&authority={authority}&Status={Status}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForWebAuthenticationScheme"
+
+      }
+    }
+  ]
+}

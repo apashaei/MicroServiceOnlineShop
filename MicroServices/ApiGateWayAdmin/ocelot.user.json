@@ -1,0 +1,108 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/User?Page={page}&PageSize={pageSize}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 7265 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/User?Page={page}&PageSize={pageSize}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/User", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 7265 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/User",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/{id}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 7265 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/User/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Roles", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 7265 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/User/Roles",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/User", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 7265 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/User",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/User?id={id}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 7265 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/User?id={id}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    }
+
+    //"RateLimitOptions": {
+    //  "ClientWhitelist": [], // array of strings
+    //  "EnableRateLimiting": true,
+    //  "Period": "2s", // seconds, minutes, hours, days
+    //  "PeriodTimespan": 1, // only seconds
+    //  "Limit": 1
+    //},
+    //"QoSOptions": {
+    //  "ExceptionsAllowedBeforeBreaking": 3,
+    //  "DurationOfBreak": 1000,
+    //  "TimeoutValue": 5000
+    //}
+
+  ]
+}

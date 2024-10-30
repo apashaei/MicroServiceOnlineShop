@@ -1,0 +1,5 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44353" // The base URL of the API Gateway
+  }
+}

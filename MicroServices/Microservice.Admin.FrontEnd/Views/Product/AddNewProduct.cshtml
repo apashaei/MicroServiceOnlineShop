@@ -1,0 +1,261 @@
+﻿@using Microservice.Admin.FrontEnd.Models.Dtos.ProductDtos
+@model ProductDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="card">
+    <div class="row">
+
+        @if (!string.IsNullOrEmpty(ViewBag.Message))
+        {
+            <div class="alert alert-warning">
+                <b>@ViewBag.Message</b>
+            </div>
+        }
+
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title-wrap bar-success">
+                        <h4 class="card-title mb-0">افزودن کاتالوگ جدید</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form id="CreateForm" method="post" class="form" asp-action="AddNewProduct" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                <fieldset class="form-group">
+                                    <label for="basicInput">نام کاتالوگ</label>
+                                    <input type="text" asp-for="@Model.Name" class="form-control" id="Name" />
+                                    <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                                </fieldset>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                <fieldset class="form-group">
+                                    <label for="basicInput">برند </label>
+                                    <select class="form-control" asp-for="@Model.BrandId" id="Brand" asp-items="@ViewBag.Brands"></select>
+                                </fieldset>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                <fieldset class="form-group">
+                                    <label for="basicInput">دسته بندی </label>
+                                    <select class="form-control" asp-for="@Model.ProductCategoryId" id="catgory" asp-items="ViewBag.Categories"></select>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                <fieldset class="form-group">
+                                    <label for="basicInput">تعداد موجودی </label>
+                                    <input type="text" asp-for="@Model.AvailableStock" class="form-control" id="AvailableStock" />
+                                    <span asp-validation-for="@Model.AvailableStock" class="text-danger"></span>
+                                </fieldset>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                <fieldset class="form-group">
+                                    <label for="basicInput"> حداقل برای سفارش مجدد </label>
+                                    <input type="text" asp-for="@Model.RestockTreshold" class="form-control" id="RestockTreshold" />
+                                    <span asp-validation-for="@Model.RestockTreshold" class="text-danger"></span>
+                                </fieldset>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                <fieldset class="form-group">
+                                    <label for="basicInput">حداکثر توان ذخیره در انبار </label>
+                                    <input type="text" asp-for="@Model.MaxStockTreshold" class="form-control" id="MaxStockTreshold" />
+                                    <span asp-validation-for="@Model.MaxStockTreshold" class="text-danger"></span>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <hr />
+
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                <fieldset class="form-group">
+                                    <label for="basicInput">قیمت محصول </label>
+                                    <input type="text" asp-for="@Model.Price" class="form-control" id="price" />
+                                    <span asp-validation-for="@Model.Price" class="text-danger"></span>
+                                </fieldset>
+                            </div> 
+
+
+                            <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                <fieldset class="form-group">
+                                    <label for="basicInput">تصاویر</label>
+                                    <input type="file" asp-for="@Model.Images" multiple class="form-control" accept="image/" id="images" />
+
+                                </fieldset>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card col-md-12">
+                            <div class="card-header col-md-12 row">
+                                <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                    <fieldset class="form-group">
+                                        <label for="basicInput"> نام گروه </label>
+                                        <input type="text" class="form-control" id="txtGroupe" />
+                                    </fieldset>
+                                </div>
+
+                                <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                    <fieldset class="form-group">
+                                        <label for="basicInput"> نام ویژگی </label>
+                                        <input type="text" class="form-control" id="txtFeature" />
+                                    </fieldset>
+                                </div>
+
+                                <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                    <fieldset class="form-group">
+                                        <label for="basicInput"> مقدار ویژگی </label>
+                                        <input type="text" class="form-control" id="txtFeatureValue" />
+                                    </fieldset>
+                                </div> 
+
+                                <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                                    <fieldset class="form-group">
+                                        <br />
+
+                                        <a class="btn btn-success" id="btnAddFeatures">افزودن</a>
+                                    </fieldset>
+                                </div>
+
+                            </div>
+                            <div class="card-body col-md-12">
+                                <table id="tbl_Features" class="col-md-12 table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                گروه
+                                            </th>
+                                            <th>
+                                                نام ویژگی
+                                            </th>
+                                            <th>
+                                                مقدار ویژگی
+                                            </th>
+                                            <th>
+
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                    <input type="hidden" id="tableData" asp-for="@Model.TableData" />
+
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card col-md-12 row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 mb-1">
+                                <fieldset class="form-group">
+                                    <label for="basicInput"> توضیحات</label>
+                                    <textarea id="discription" asp-for="@Model.Description" class="form-control"></textarea>
+                                    <span asp-validation-for="@Model.Description" class="text-danger"></span>
+                                </fieldset>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-12 mb-1">
+                            <fieldset class="form-group">
+                                <button type="submit" class="btn btn-success col-md-12">ثبت کاتالوگ</button>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+@section Scripts {
+    <script src="https://cdn.ckeditor.com/4.13.0/standard-all/ckeditor.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        CKEDITOR.replace('discription', {
+            language: 'fa',
+            contentsLangDirection: 'rtl',
+            height: 270,
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('form').on('submit', function (e) {
+                var tableData = [];
+                $('#tbl_Features tbody tr').each(function () {
+                    var row = [];
+                    $(this).find('td').not(':last').each(function () {
+                        row.push($(this).text().trim());
+                    });
+                    tableData.push(row.join("__"));
+                });
+                $('#tableData').val(JSON.stringify(tableData));
+            });
+        });
+    </script>
+
+@*     <script>
+        $(document).ready(function () {
+        @if (Model.Messages != null && Model.Messages.Any())
+        {
+            <text>
+                                    var messages = @Html.Raw(Json.Serialize(Model.Messages));
+                var displayMessage = function (index) {
+                    if (index >= messages.length) return;
+                    var message = messages[index];
+                    Swal.fire({
+                        title: 'پیام',
+                        text: message,
+                        icon: message.includes("موفقیت") ? "success" : "error",
+                        confirmButtonText: 'OK'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            displayMessage(index + 1);
+                        }
+                    });
+                };
+                displayMessage(0);
+            </text>
+        }
+                    });
+    </script> *@
+
+    <script>
+        $("#btnAddFeatures").on("click", function () {
+
+            var txtGroupe = $("#txtGroupe").val();
+            var txtFeature = $("#txtFeature").val();
+            var txtFeatureValue = $("#txtFeatureValue").val();
+
+            if (txtFeature == '' | txtFeatureValue == '' | txtGroupe == '') {
+                Swal.fire(
+                    'هشدار!',
+                    "نام گروه- نام ویژگی و مقدار اجباری می باشد.",
+                    'warning'
+                );
+            }
+            else {
+                $('#tbl_Features tbody').append('<tr><td>' + txtGroupe + '</td><td>' + txtFeature + '</td> <td>' + txtFeatureValue + '</td><td> <a class="idFeatures btnDelete btn btn-danger">حذف</a></td></tr>')
+                $('#txtFeature').val('');
+                $('#txtFeatureValue').val('');
+            }
+
+
+            $("#tbl_Features").on('click', '.idFeatures', function () {
+                $(this).closest('tr').remove();
+            })
+        })
+
+    </script>
+}

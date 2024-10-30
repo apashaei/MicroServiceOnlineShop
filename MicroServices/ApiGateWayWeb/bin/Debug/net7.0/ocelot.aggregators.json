@@ -1,0 +1,13 @@
+{
+ 
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "user-basket11",
+        "product"
+      ],
+      "UpstreamPathTemplate": "/productAndBasket?UserId={UserId}",
+      "Aggregator": "ProductBasketAggregator"
+    }
+  ]
+}

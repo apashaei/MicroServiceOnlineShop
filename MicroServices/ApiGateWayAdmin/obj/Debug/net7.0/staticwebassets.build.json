@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4yje5W9EaXsWz3/tBbx+LMLJDoiJz8nuRokse0vdZyU=",
+  "Source": "APIGateWay.Admin.WebApi",
+  "BasePath": "_content/APIGateWay.Admin.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

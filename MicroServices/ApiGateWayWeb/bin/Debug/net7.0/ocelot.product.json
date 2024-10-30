@@ -1,0 +1,113 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/product", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44345 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/product",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "Key": "product"
+
+      //"RateLimitOptions": {
+      //  "ClientWhitelist": [], // array of strings
+      //  "EnableRateLimiting": true,
+      //  "Period": "2s", // seconds, minutes, hours, days
+      //  "PeriodTimespan": 1, // only seconds
+      //  "Limit": 1
+      //},
+      //"QoSOptions": {
+      //  "ExceptionsAllowedBeforeBreaking": 3,
+      //  "DurationOfBreak": 1000,
+      //  "TimeoutValue": 5000
+      //}
+    },
+    {
+      "DownstreamPathTemplate": "/api/Product/{Id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44345
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product/{Id}",
+      "UpstreamHttpMethod": [ "GET" ]
+
+    },
+
+    //--------------------------------------------------------------------------------------------
+
+    {
+      "DownstreamPathTemplate": "/api/Category", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44345 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Category",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForWebAuthenticationScheme"
+
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Product/GetMostSellerProducts", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44345 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Product/GetMostSellerProducts",
+      "UpstreamHttpMethod": [ "GET" ]
+     
+    },
+
+    //--------------------------------------------------------------------------------------------managment
+
+    {
+      "DownstreamPathTemplate": "/api/ProductManagment", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44345 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ProductManagment",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForWebAuthenticationScheme"
+
+      }
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/ProductManagment/Id?id={id}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 44345 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ProductManagment/Id?id={id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForWebAuthenticationScheme"
+
+      }
+    }
+
+  ]
+}

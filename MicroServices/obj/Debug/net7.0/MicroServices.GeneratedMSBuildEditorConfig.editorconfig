@@ -1,0 +1,259 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MicroServices
+build_property.RootNamespace = MicroServices
+build_property.ProjectDir = C:\Users\Alipa\OneDrive\Desktop\services2\MicroServices\MicroServices\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Alipa\OneDrive\Desktop\services2\MicroServices\MicroServices
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEFjY291bnRcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Account/Create/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEFjY291bnRcQ3JlYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Account/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEFjY291bnRcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Account/Logout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEFjY291bnRcTG9nb3V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Account/Logout/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEFjY291bnRcTG9nb3V0XExvZ2dlZE91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Ciba/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXENpYmFcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Ciba/Consent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXENpYmFcQ29uc2VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Ciba/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXENpYmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Ciba/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXENpYmFcX1Njb3BlTGlzdEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Consent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXENvbnNlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Consent/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXENvbnNlbnRcX1Njb3BlTGlzdEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Device/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXERldmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Device/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXERldmljZVxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Device/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXERldmljZVxfU2NvcGVMaXN0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Diagnostics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXERpYWdub3N0aWNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/ExternalLogin/Callback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEV4dGVybmFsTG9naW5cQ2FsbGJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/ExternalLogin/Challenge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEV4dGVybmFsTG9naW5cQ2hhbGxlbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Grants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEdyYW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Home/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEhvbWVcRXJyb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Redirect/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXFJlZGlyZWN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXFNoYXJlZFxfTmF2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/Shared/_ValidationSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXFNoYXJlZFxfVmFsaWRhdGlvblN1bW1hcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/IdentityService/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SWRlbnRpdHlTZXJ2aWNlXFBhZ2VzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/HomePageManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXEhvbWVQYWdlTWFuYWdlbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/Product/AddNewProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXFByb2R1Y3RcQWRkTmV3UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXFByb2R1Y3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXFVzZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXFVzZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXFVzZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Basket/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXEJhc2tldFxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Basket/CheckoutSucces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXEJhc2tldFxDaGVja291dFN1Y2Nlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Basket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXEJhc2tldFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Order/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXE9yZGVyXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXE9yZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXFByb2R1Y3RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXFByb2R1Y3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Admin.FrontEnd/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLkFkbWluLkZyb250RW5kXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-lye1zw3ewv
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Microservice.Web.FronEnd/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWljcm9zZXJ2aWNlLldlYi5Gcm9uRW5kXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-0ed5xayk43
+
+[C:/Users/Alipa/OneDrive/Desktop/services2/MicroServices/MicroServices/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-826bre1mu4

@@ -1,0 +1,62 @@
+﻿@using Microservice.Web.FronEnd.Services.OrderServices;
+@model List<OrderDto>;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table col-md-9">
+    <thead>
+        <tr>
+            <th>
+                <label>تاریخ ثبت</label>
+
+            </th>
+            <th>
+                <label>تعداد محصولات</label>
+            </th>
+            <th>
+                <label>قیمت کل</label>
+            </th>
+            <th>
+                <label>پرداخت شده؟</label>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Orderplaced)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ItemCount)
+                </td>
+                <td>
+                    <b class="text-success"> @item.TotalPrice.ToString("n0") تومان</b>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Orderpaid)
+                </td>
+                <td class="row">
+
+                    @if (item.paymetnstatus == Paymetnstatus.NotPaid)
+                    {
+                        <a class="" asp-action="Pay" asp-controller="Order" asp-route-id="@item.OrderId"> پرداخت</a>
+                    }
+                    <a class="" asp-action="Detail" asp-controller="Order" asp-route-id="@item.OrderId"> جزئیات</a>
+                </td>
+
+                
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+
+

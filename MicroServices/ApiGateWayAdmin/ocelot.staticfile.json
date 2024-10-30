@@ -1,0 +1,19 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Images/{mysecretkey}", // Downstream API path
+      "DownstreamScheme": "https", // Scheme: http or https
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost", // Hostname of downstream service
+          "Port": 7084 // Port of downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Images/{mysecretkey}",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiGateWayForAdminAuthenticationScheme"
+      }
+    }
+  ]
+}

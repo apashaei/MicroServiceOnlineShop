@@ -1,0 +1,188 @@
+2024-09-04 12:12:45.021 +02:00 [INF] User profile is available. Using 'C:\Users\Alipa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 12:12:45.457 +02:00 [INF] Now listening on: https://localhost:7265
+2024-09-04 12:12:45.459 +02:00 [INF] Now listening on: http://localhost:5219
+2024-09-04 12:12:45.463 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 12:12:45.466 +02:00 [INF] Hosting environment: Development
+2024-09-04 12:12:45.467 +02:00 [INF] Content root path: C:\Users\Alipa\source\repos\ProductServices\UserManagerService
+2024-09-04 12:12:46.637 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2024-09-04 12:12:46.978 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 342.3485ms
+2024-09-04 12:12:46.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2024-09-04 12:12:46.980 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2024-09-04 12:12:46.991 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 13772 application/javascript;+charset=utf-8 12.2898ms
+2024-09-04 12:12:47.036 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.1844ms
+2024-09-04 12:12:47.137 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2024-09-04 12:12:47.256 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.9827ms
+2024-09-04 12:12:52.634 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - -
+2024-09-04 12:12:53.005 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-09-04 12:12:53.020 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-04 12:12:53.023 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - - - 401 0 - 389.1173ms
+2024-09-04 12:32:08.362 +02:00 [INF] User profile is available. Using 'C:\Users\Alipa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 12:32:08.731 +02:00 [INF] Now listening on: https://localhost:7265
+2024-09-04 12:32:08.734 +02:00 [INF] Now listening on: http://localhost:5219
+2024-09-04 12:32:08.737 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 12:32:08.739 +02:00 [INF] Hosting environment: Development
+2024-09-04 12:32:08.743 +02:00 [INF] Content root path: C:\Users\Alipa\source\repos\ProductServices\UserManagerService
+2024-09-04 12:32:10.654 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2024-09-04 12:32:10.895 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 243.8391ms
+2024-09-04 12:32:10.906 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2024-09-04 12:32:10.906 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2024-09-04 12:32:10.919 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 13772 application/javascript;+charset=utf-8 12.0668ms
+2024-09-04 12:32:10.955 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.1090ms
+2024-09-04 12:32:11.192 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2024-09-04 12:32:11.303 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.2497ms
+2024-09-04 13:03:55.695 +02:00 [INF] User profile is available. Using 'C:\Users\Alipa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 13:03:56.304 +02:00 [INF] Now listening on: https://localhost:7265
+2024-09-04 13:03:56.308 +02:00 [INF] Now listening on: http://localhost:5219
+2024-09-04 13:03:56.314 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 13:03:56.317 +02:00 [INF] Hosting environment: Development
+2024-09-04 13:03:56.319 +02:00 [INF] Content root path: C:\Users\Alipa\source\repos\ProductServices\UserManagerService
+2024-09-04 13:03:56.919 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2024-09-04 13:03:57.334 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 417.9356ms
+2024-09-04 13:03:57.339 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2024-09-04 13:03:57.339 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2024-09-04 13:03:57.395 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 13772 application/javascript;+charset=utf-8 54.8857ms
+2024-09-04 13:03:57.466 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.8514ms
+2024-09-04 13:03:57.576 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2024-09-04 13:03:57.752 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 175.7597ms
+2024-09-04 13:04:43.289 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - -
+2024-09-04 13:04:43.634 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-09-04 13:04:43.651 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-04 13:04:43.656 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - - - 401 0 - 366.9071ms
+2024-09-04 13:05:34.762 +02:00 [INF] User profile is available. Using 'C:\Users\Alipa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 13:05:35.219 +02:00 [INF] Now listening on: https://localhost:7265
+2024-09-04 13:05:35.224 +02:00 [INF] Now listening on: http://localhost:5219
+2024-09-04 13:05:35.232 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 13:05:35.234 +02:00 [INF] Hosting environment: Development
+2024-09-04 13:05:35.237 +02:00 [INF] Content root path: C:\Users\Alipa\source\repos\ProductServices\UserManagerService
+2024-09-04 13:05:36.483 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2024-09-04 13:05:36.726 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 242.6532ms
+2024-09-04 13:05:36.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2024-09-04 13:05:36.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2024-09-04 13:05:36.745 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 13772 application/javascript;+charset=utf-8 8.8841ms
+2024-09-04 13:05:36.784 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.8603ms
+2024-09-04 13:05:37.063 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2024-09-04 13:05:37.173 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.1996ms
+2024-09-04 13:05:46.065 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - -
+2024-09-04 13:05:46.369 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-09-04 13:05:46.388 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-04 13:05:46.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - - - 401 0 - 327.4576ms
+2024-09-04 13:06:17.898 +02:00 [INF] User profile is available. Using 'C:\Users\Alipa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 13:06:18.248 +02:00 [INF] Now listening on: https://localhost:7265
+2024-09-04 13:06:18.251 +02:00 [INF] Now listening on: http://localhost:5219
+2024-09-04 13:06:18.254 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 13:06:18.256 +02:00 [INF] Hosting environment: Development
+2024-09-04 13:06:18.257 +02:00 [INF] Content root path: C:\Users\Alipa\source\repos\ProductServices\UserManagerService
+2024-09-04 13:06:18.799 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2024-09-04 13:06:19.096 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 299.2789ms
+2024-09-04 13:06:19.111 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2024-09-04 13:06:19.111 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2024-09-04 13:06:19.122 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 13772 application/javascript;+charset=utf-8 11.4303ms
+2024-09-04 13:06:19.178 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.0141ms
+2024-09-04 13:06:19.279 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2024-09-04 13:06:19.420 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.0346ms
+2024-09-04 13:06:22.802 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - -
+2024-09-04 13:06:23.047 +02:00 [INF] Executing endpoint 'UserManagerService.Controllers.UserController.Get (UserManagerService)'
+2024-09-04 13:06:23.164 +02:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32, Int32) on controller UserManagerService.Controllers.UserController (UserManagerService).
+2024-09-04 13:06:23.909 +02:00 [INF] This is from User controller
+2024-09-04 13:06:23.914 +02:00 [ERR] This is from User controller
+2024-09-04 13:06:26.556 +02:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PhoneNumber], [u].[UserName] AS [Username]
+FROM [Identity].[Users] AS [u]
+WHERE [u].[Discriminator] = N'User'
+2024-09-04 13:06:26.626 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PhoneNumber], [u].[UserName] AS [Username]
+FROM [Identity].[Users] AS [u]
+WHERE [u].[Discriminator] = N'User'
+2024-09-04 13:06:26.659 +02:00 [INF] Executing OkObjectResult, writing value of type 'UserManagerService.Models.Dtos.PagenatedItemDto`1[[UserManagerService.Models.Dtos.UserDto, UserManagerService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-04 13:06:26.750 +02:00 [INF] Executed action UserManagerService.Controllers.UserController.Get (UserManagerService) in 3568.3945ms
+2024-09-04 13:06:26.754 +02:00 [INF] Executed endpoint 'UserManagerService.Controllers.UserController.Get (UserManagerService)'
+2024-09-04 13:06:26.781 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - - - 200 - application/json;+charset=utf-8 3979.1895ms
+2024-09-04 18:51:57.506 +02:00 [INF] User profile is available. Using 'C:\Users\Alipa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 18:51:58.233 +02:00 [INF] Now listening on: https://localhost:7265
+2024-09-04 18:51:58.239 +02:00 [INF] Now listening on: http://localhost:5219
+2024-09-04 18:51:58.246 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 18:51:58.251 +02:00 [INF] Hosting environment: Development
+2024-09-04 18:51:58.255 +02:00 [INF] Content root path: C:\Users\Alipa\source\repos\ProductServices\UserManagerService
+2024-09-04 18:51:59.058 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2024-09-04 18:51:59.331 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2024-09-04 18:51:59.331 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2024-09-04 18:51:59.357 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 13772 application/javascript;+charset=utf-8 20.8549ms
+2024-09-04 18:51:59.358 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 302.3513ms
+2024-09-04 18:51:59.405 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.9221ms
+2024-09-04 18:51:59.504 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2024-09-04 18:51:59.637 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.6499ms
+2024-09-04 18:52:03.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - -
+2024-09-04 18:52:04.133 +02:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-09-04 18:52:04.144 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-04 18:52:04.161 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - - - 401 0 - 183.7442ms
+2024-09-04 18:52:23.465 +02:00 [INF] User profile is available. Using 'C:\Users\Alipa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 18:52:24.019 +02:00 [INF] Now listening on: https://localhost:7265
+2024-09-04 18:52:24.024 +02:00 [INF] Now listening on: http://localhost:5219
+2024-09-04 18:52:24.030 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 18:52:24.032 +02:00 [INF] Hosting environment: Development
+2024-09-04 18:52:24.035 +02:00 [INF] Content root path: C:\Users\Alipa\source\repos\ProductServices\UserManagerService
+2024-09-04 18:52:24.538 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2024-09-04 18:52:24.747 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2024-09-04 18:52:24.747 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2024-09-04 18:52:24.788 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 13772 application/javascript;+charset=utf-8 38.0000ms
+2024-09-04 18:52:24.788 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 251.5101ms
+2024-09-04 18:52:24.827 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 79.4036ms
+2024-09-04 18:52:24.900 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2024-09-04 18:52:25.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.7512ms
+2024-09-04 18:52:28.455 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - -
+2024-09-04 18:52:28.700 +02:00 [INF] Executing endpoint 'UserManagerService.Controllers.UserController.Get (UserManagerService)'
+2024-09-04 18:52:28.829 +02:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32, Int32) on controller UserManagerService.Controllers.UserController (UserManagerService).
+2024-09-04 18:52:29.426 +02:00 [INF] This is from User controller
+2024-09-04 18:52:29.432 +02:00 [ERR] This is from User controller
+2024-09-04 18:52:32.348 +02:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PhoneNumber], [u].[UserName] AS [Username]
+FROM [Identity].[Users] AS [u]
+WHERE [u].[Discriminator] = N'User'
+2024-09-04 18:52:32.420 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PhoneNumber], [u].[UserName] AS [Username]
+FROM [Identity].[Users] AS [u]
+WHERE [u].[Discriminator] = N'User'
+2024-09-04 18:52:32.464 +02:00 [INF] Executing OkObjectResult, writing value of type 'UserManagerService.Models.Dtos.PagenatedItemDto`1[[UserManagerService.Models.Dtos.UserDto, UserManagerService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-04 18:52:32.556 +02:00 [INF] Executed action UserManagerService.Controllers.UserController.Get (UserManagerService) in 3704.4956ms
+2024-09-04 18:52:32.559 +02:00 [INF] Executed endpoint 'UserManagerService.Controllers.UserController.Get (UserManagerService)'
+2024-09-04 18:52:32.591 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - - - 200 - application/json;+charset=utf-8 4136.0117ms
+2024-09-04 18:52:35.117 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - -
+2024-09-04 18:52:35.126 +02:00 [INF] Executing endpoint 'UserManagerService.Controllers.UserController.Get (UserManagerService)'
+2024-09-04 18:52:35.134 +02:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32, Int32) on controller UserManagerService.Controllers.UserController (UserManagerService).
+2024-09-04 18:52:35.156 +02:00 [INF] This is from User controller
+2024-09-04 18:52:35.161 +02:00 [ERR] This is from User controller
+2024-09-04 18:52:35.333 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PhoneNumber], [u].[UserName] AS [Username]
+FROM [Identity].[Users] AS [u]
+WHERE [u].[Discriminator] = N'User'
+2024-09-04 18:52:35.350 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PhoneNumber], [u].[UserName] AS [Username]
+FROM [Identity].[Users] AS [u]
+WHERE [u].[Discriminator] = N'User'
+2024-09-04 18:52:35.365 +02:00 [INF] Executing OkObjectResult, writing value of type 'UserManagerService.Models.Dtos.PagenatedItemDto`1[[UserManagerService.Models.Dtos.UserDto, UserManagerService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-04 18:52:35.375 +02:00 [INF] Executed action UserManagerService.Controllers.UserController.Get (UserManagerService) in 228.7912ms
+2024-09-04 18:52:35.382 +02:00 [INF] Executed endpoint 'UserManagerService.Controllers.UserController.Get (UserManagerService)'
+2024-09-04 18:52:35.392 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - - - 200 - application/json;+charset=utf-8 274.6449ms
+2024-09-04 18:52:36.155 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - -
+2024-09-04 18:52:36.165 +02:00 [INF] Executing endpoint 'UserManagerService.Controllers.UserController.Get (UserManagerService)'
+2024-09-04 18:52:36.171 +02:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32, Int32) on controller UserManagerService.Controllers.UserController (UserManagerService).
+2024-09-04 18:52:36.214 +02:00 [INF] This is from User controller
+2024-09-04 18:52:36.219 +02:00 [ERR] This is from User controller
+2024-09-04 18:52:36.269 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PhoneNumber], [u].[UserName] AS [Username]
+FROM [Identity].[Users] AS [u]
+WHERE [u].[Discriminator] = N'User'
+2024-09-04 18:52:36.276 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Email], [u].[FullName], [u].[PhoneNumber], [u].[UserName] AS [Username]
+FROM [Identity].[Users] AS [u]
+WHERE [u].[Discriminator] = N'User'
+2024-09-04 18:52:36.283 +02:00 [INF] Executing OkObjectResult, writing value of type 'UserManagerService.Models.Dtos.PagenatedItemDto`1[[UserManagerService.Models.Dtos.UserDto, UserManagerService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-04 18:52:36.292 +02:00 [INF] Executed action UserManagerService.Controllers.UserController.Get (UserManagerService) in 111.8721ms
+2024-09-04 18:52:36.299 +02:00 [INF] Executed endpoint 'UserManagerService.Controllers.UserController.Get (UserManagerService)'
+2024-09-04 18:52:36.305 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/api/User?Page=1&PageSize=20 - - - 200 - application/json;+charset=utf-8 149.0566ms
+2024-09-04 18:52:49.767 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7265/metrics-text - -
+2024-09-04 18:52:50.153 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7265/metrics-text - - - 200 - text/plain 385.7735ms
